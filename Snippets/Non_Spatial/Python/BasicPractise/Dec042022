@@ -1,0 +1,35 @@
+
+
+class: Dog 
+    def __init__(self):
+        pass
+
+    def bark(self):
+        return "bark, bark, bark, bark...."
+
+
+d = Dog()
+print(d.bark())
+
+#########################################
+
+day = 'monday'
+
+if day =='friday':
+    print('Its FrIdaY!')
+else:
+    print('Its not friday')
+
+##########################################
+
+with open('hello.txt', 'w') as file:
+  file.write("hello!")
+
+print(file.closed)
+
+#############################################
+packages = ["numpy", "pandas", "scipy"]
+
+for i in packages:
+    print(i)
+    
